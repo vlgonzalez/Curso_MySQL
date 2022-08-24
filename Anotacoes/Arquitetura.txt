@@ -1,0 +1,49 @@
+Arquitetura
+ Abstração = essencial
+
+mode de dados conceitual - alto nivel - entidade, atributos, relacionamento - traz de maneira simples para facil entendimento 
+Modelo de dados fisico - implementação baixo nivel, especifidade do sistema, indices e hashes
+Modelo de implementação - Representação - linguagems , operações, hierarquicos
+modelo auto descritivo
+
+Esquema - descrição , uma historia um esqueleto, representado por diagrama
+obj são chamados de construtores - o que compoem
+mudança - insert, delete, update = mudança de estado do BD
+estado inicial = vazio , fiz uma atualização o estado fica diferente do esquema
+mudança = evolução do esquema
+
+Metadados - Descrição do esquema, Construtores, Contrains ( regras), estrutura do que o BD contem
+
+Internal level - Fisico (baixo nivel) - distribuição dos arquivos dentro do sistema
+
+Conteitual - Modelo de implementação, entidades, relacionamento, operações do usuario
+crio as View - oque ele vai ver, modelo logico
+
+
+Linguagem relacional - SQL DDL (data definition language)
+linguagem de definição de conteudo, gera o modelo relacional e fisico
+Separação , fisica SDL , logica VDL
+DML - Inserção e recuperação - Baixo nivel e alto Nivel 
+web client - navegador
+app mobile - celular
+Forms - formulario, enviado via HTTP, se tiver um erro foi programado errado
+GUI - diagrama , Query manipula o diagrama
+NLI - interpreata a lig natura , ex alexa
+Pesquisa Keyword - busca por palvra/doc mais realiconada com modelo fisico
+Speech input/output - contexto limitado
+Interfaces - Naive - repititivas
+DBA staff - alto nivel de privilegio, para fazer alterações
+
+AMbiente de SGBD
+
+pode ser centralizada ou distribuida
+
+classificação
+Modelos de dados - SQL ou NoSql
+N de usuario - muitos usuarios melhor No SLQ
+n de sites - é distribuido, tem redundancia
+Custos - tenho que pagar
+Tipo de caminho de acesso - nome do arquivo
+
+performace
+

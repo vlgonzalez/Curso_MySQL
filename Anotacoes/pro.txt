@@ -1,0 +1,7 @@
+Contexto - requisitos ( o que vai fazer, segurança)
+Conceitual - moodelando para entidade de relacionamento
+Projeto logico para o relacional
+
+Ordemm de serviço
+Universidade
+Ecommerce

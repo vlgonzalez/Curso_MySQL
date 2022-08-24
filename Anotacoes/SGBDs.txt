@@ -1,0 +1,61 @@
+Pq usar o SGBDs - permite acessos concorrentes
+abstração
+isolamento
+multiplas visões
+auto-descrição
+compartilhamento
+trasação multiluser
+
+natureza auto- descritiva
+descrição da estrutura
+DB schema - Meta dados e Schema ( definido pelo DBA)
+
+No SQL - não tem 
+
+catalogo - tabela de relacionamento, mostra o numero de colulas
+
+reestruturações - 
+abstração -
+transparencia - preciso saber a estrutura
+
+isolamento - é o catalogo , onde começa, e qual o tamanho
+concurrency control - multipols acessos por pessoas distintas, manter a acuracia, manter os dados certo, exemplo reserva de um ascento de voo
+OLTP - acesso simultaneo, ( insert - delete , Uotadate) , sitema tem que executar de ponta a ponta, para modificar o BD
+prover performace para transacionar de ponta a ponta,
+ app multiusuarios, execusão sem interferencia, 
+transaction driven
+ambiente BD
+
+Olap - faz a analise dos dados operacionais ( analitico) - data Warehouse
+Desing - faz a modelagem, levantar os requisitos, o que vai compor, tenho que fazer uma representação grafica, frase preliminar, qual contexto dos dados, o que vai voltar, respresenta a estrutura
+usuabilidade
+manutenção
+adm
+usuarios - acesso Querying , update , reports
+casuais - acesso API
+Ingenuos, Canned Transactions -API grafica, mais usado, caixa eletronico, rede social, transporte
+Sofisticados - já tem noção do sistema, já sabe solicitar via Query
+Standalone - BD pessoal, só ele tem acesso
+aplicar diversos recurso para facilitar a vida do usuario
+
+DBA - define a base de dados os acessos softaweares adicionais
+
+QUem programa as  Canned Transactions ?
+engenheiro de software
+cria Api
+
+backgroud
+Desingner, manutenção, implementação, Desenvolvedores de ferramenta - fornece um ambiente para o funcionamento
+
+vantagens
+redundancia
+restrição de acesso - feito pelo DBA - assinatura digital
+Persistencia - 
+Ganhos
+Padronização, Redução no desenvolvimento, Flexibilidade, Disponibilidade de display
+economia de escalabidade, relatorio
+
+padronização - estrutura definida
+
+quando não usar o SGPB
+custo de overhead - custo do sistema, 

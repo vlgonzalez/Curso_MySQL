@@ -1,0 +1,21 @@
+Curso em video MySLQ
+DDL - definição, cria uma tabela
+DML - maniupulação
+DQL -select
+DCL - controle, permições
+
+banco de daddos são conjuntos de tabelas e tabelas conjuntos de registro
+
+CREATE DATA
+
+NUmerico - inteiros, real , logico
+Literal - binario , caracter , texto , coleção
+time, date, datetime,timestamo, time,year
+literal- char, varchar
+Coleção - Enum, set - restinge o tipo de valores
+Especial - guarda sobre volumetricos
+
+entidade é a tabela
+atributos são os dados da tabela
+
+relacionamento

@@ -1,0 +1,59 @@
+user experience
+entende que usa o programa, pensa nas dificuldades do cliente, pensa que o produto tem que ser agradavel, cria a cara da apresentação o front end, qual caminho o usuario vai fazer, qual a primeira tela, segunda, cria um prototipo para o programador, pode ser manual ou desenhada em um programa
+pesquisa
+prototipos
+personas
+objetivos
+
+user interface
+desenha o botão, cuida do estilo, photoshop microinteração, tipografia, escala de cores, 
+design
+tipografia
+cores
+layouts
+
+user interface e user experience , pode ser duas pessoas ou uma
+
+modelo cliente servidor
+distribui a carga de serviço, 
+
+dev front end
+programa a frente do site pelo que foi desenhado antes
+
+onde cria codidigos IDE
+ambiente de desenvolvimento
+facilita na digitação, corrigi algo errado
+
+frameworks
+facilitador, soluções pré definidas, serie de codigos já pré feitas, angular usa fornt end, repetição de tarefas, ganha tempo, recuros pré prontos
+angular - front end
+laravel -  php
+spring - java
+vui -  js
+
+back end
+banco de dados
+faz a ponte entre o banco de dados 
+java , php e C#
+
+API
+retorno entre o back end e front , caminho entre um aplicativo e outro
+usuario - aplicativo / browser -  requisição/resposta - wifi - api - web server - banco de dados
+o front trata as informação trazidas pela API, ja o back cria a API
+
+full stack
+faz o front e back 
+
+QA
+qualidade do swftare, analisa a qualidade do app, verifica o codigo, se o caminho do usuario esta certo, ferramentas de teste
+
+infraestrutura
+data center - servidores , nuvem privada - segurança , logica e fisica, mão de obra software e hardware, ifraestrutara local
+
+numvem publica
+empresas que oferecem servidores, google, amazon, microsoft, mais barato , pago pelo que eu uso, ganho escala, escalabilidade, performace, 
+quem cuida disso é o cloud computing , responsavel pela infra da nuvem, desenha o que vai ser preciso, qual empresa usar,como integrar 
+
+dev mobile
+muda o front, android studio uso mais o java , para o IOs é outra aplicação xcod - esse é o nativo
+desenvolvimento hibrido, atende os ambos com o mesmo coidog, ionic, flutter e react, nem todos os recursos vou ter acesso, as vezes não tenho performace, é menos custoso

@@ -1,0 +1,32 @@
+entidade de relacionamento
+entendia / obj - tudo que tem prorpiedades , tem importancia, possui atributos que caracterizam uma propriedade
+um conjunto de estancias - um conjunto de caractristicas
+atribudos - são propriedadas das entidades, eles descrevem a entidade
+atomicos - apenas uma info, unico não tem variação
+compostos - mais de uma info, ex nome completo - como pego por concatenação
+outro exemplo endereço
+simples/multivalorados - ex casaco com duas cores, porem o valor é armazenado em um unico campo
+atributos armazenados - não midfica , ex idade
+derivado - idade pela data de nascimento
+nulos - opcional
+Unknown - existe mas não é conhecido 
+
+esquema define o tipo e o tipo a coleção
+conjunto de entidade - estancias 
+entidade Fraca - dependencia , só existe se outra entidade existir 
+
+classificação do relacionamento
+Grua - binario duas entidades fazendo um relacionamento, mais de duas ternario
+Auto relacionamento ou não
+Cardinalidade
+papel de cada entidade,
+
+Constrais - cardinaldiade
+N maxixo de instancias que participam de um relacionamento
+Participação - dependencia, minima cardianalidade, tem que ter pelo menos uma estancia
+entidades - calsse/ obj - retangulo
+Relacionamento - agregação - losanfo
+atributos - prorpiedade, circulo
+Weak - entidade relacionamento duas margens do retangulo 
+derivado trasejado
+composto varios circulos

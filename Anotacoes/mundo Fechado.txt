@@ -1,0 +1,48 @@
+mundo Fechado
+Preposição - o que não estiver no BD não posso responder 
+modelo logico, armazena e representa os dados o mini- mundo
+
+CWA - clouse word 
+
+Algebra relacional -SQL
+predicado parte que tem o verbo
+Conjunto de operações
+utiliza operações que vão ser usadas pelo SGBD, e ele retorna uma tabela
+
+dado é cru
+informação tiro algo
+regras, quem pode aceitar
+Modelo (modelagem) 
+Conceitual- defino o que quero defino o sistema, implementação
+logico - defino qual o modelo se quero relacional ou No Sql
+fisico - crio o meu esquema, qual linguagem vou usar, defino as entidades
+
+conceitual - represento graficamente ou textuais 
+analise verificar - se os dados que tenho atende o que o cliente precisa
+defino a importancia dos atributos, os relacionamentos, visões a serem realacionadas
+
+conceitual o que vai ter
+logico como estruturar
+fisico , implemento - comandos sql
+
+entre o conceitual e logico crio um mapeamento , apos o logico crio esquema di BD modelo fisico
+modelo logico , instalo o SGBD ( MySql)
+esquema conceitual - Desing e conceita do alto nivel
+mapeamento especificando para o modelo logico
+
+Entidade = qual o tipo ?
+relacionamento = binario, n
+cardinalidade
+atributos = multivalores
+
+,odelo fisico vai descrver o modelo conceitual, como vai ser implementado
+estrutura do indice
+caminho de arquivos
+segurança, performace
+Ex: alocação de memoria, tabelas
+
+projeto logico
+Celeta e analise - esquca conceitual - esquema logico - implementação (esquema fisico) - descrição SQL
+validação - produção - manutenção
+
+

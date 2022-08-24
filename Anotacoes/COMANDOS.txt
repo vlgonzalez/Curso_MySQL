@@ -1,0 +1,106 @@
+DLL - udando pelo DBA
+Insert, Update, Delete
+Create, drop, alter
+Rename, truncate, merge
+Fornece Usuarios, faz o esquema, faz a indexição ( qual dados, precisam de acesso mais rapido, ex cria um atalho)
+
+CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] DB_NAME
+[CREATE_OPTION]
+
+DML
+Insert | Update
+Delete , marge
+
+DCL
+Grant , revoje
+
+DQL
+Select
+
+Statemet
+Comando/instrunção
+Reconhecido
+retorna: registro de lado
+
+Clausulas SQL
+FUnção - instrunção
+Select * from table_name
+
+select now ();
+
+Clausulas de manipulação
+Select
+From 
+Where
+Order By
+group by
+Having - se tem algo na tabela
+
+termos
+identificador
+Operador
+COnstante
+Expreção
+
+tipod de dados 
+Fixo 255 bytes
+Variavel - 65.535 bytes
+char(20) - tamanho fixo de caracter
+varchar(20) - livre
+
+tiytext - 255
+text
+mediumtext - 16,777,215 bytes
+lontext - 4,2942967
+
+Show character set - mostra o tipo de dado
+Maxlen > 1 =multibyte char set
+
+dados numericos
+tinyint
+smallint
+mediumint
+int
+bigint
+float
+double
+
+temporais
+date
+datetime - data e hora
+timestamp
+year
+time
+
+constraint
+Not null - nãoa ceita valores nulos
+PK, SK - 
+default - criar um valor padrão
+chack - verifica se o valor inserido esta conforme o inserido no dominio
+delete - remover
+primary key - na criação da tabela
+Unique - indica que o elemento tem que ser unico
+Referential triggered action - quando tem violação das constraints ele da um erro
+
+Queries
+Miltiset -
+distinct
+
+mapping - Select * from where
+
+<> - diferente
+AND , or, Xor , not 
+True e false
+
+DML
+Subconjunto do sql
+mais utilizado
+Insert, delete, update
+Insert into <table> (<list-attributes>)values(<list-values>)
+
+desc - verifico quais tipos de dado estão na tabela
+
+
+
+
+

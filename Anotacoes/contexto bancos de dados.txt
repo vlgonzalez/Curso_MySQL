@@ -1,0 +1,106 @@
+sgpb - restringe o acesso
+velocidade, variedade e volume
+NoSQL
+
+o que são Banco de dados
+dados são um fato - tenho um fato relacionado, preciso lapidar ele, 
+banco de dados é um conjunto
+conjunto de palavras que tem um relacionamento para fazer um sentido
+
+sgpd é mais coerente 
+acesso ao banco de dados é feito via API
+tem que ser confiavel e acurado
+
+SGBD = DBMS - fazem a gestão do banco de dados 
+software
+definir o tipo de dado - o que vou colocar
+construção - mapeamento requisistos, estrutura, comandos para inserir
+manipulçação - o SGBD já esta funcionando, query , já gera relatorio, linguagem compilada para trazer informaçãos
+compartilhamento - grupos diferentes acessando os mesmos dados, determina os acessos, fala as regras que vão liberar os acessos
+transaction - Query - solicitação com o retorno 
+longa utilização, proteção pode restringir o acesso
+SGBD é modular possui outros software para ajudar , um para processar querys outro para acessar o banco
+
+definição - rastrio as informações
+meta dados - cria o historico para consulta
+a coluna esta ligada a um atributo, linha
+permite navegar entre os dados
+
+tipo de dado
+cada atributo define um tipo de dado especifico para a propriedade
+metadados - relaciona os dados de estrutura , descreve o banco de forma consisa 
+faz consulta por meio das query
+construção como é feito o acesso aos esses dados,
+
+manipulação, manutenção, - via updates é transofrmada em query 
+compartilhamento, bloqueia tabelas quando tiver update 
+modelo surgiu em 60 e 70 pela IBM
+serviu para diminuir custo
+
+modelo relacional
+teoria de conjuntos, generalista criador Ted cood surgiu em 70
+ISO 9075 
+em 2000 surguiu os NOSQL
+feddback positivo, sistema distribuido, desenvolvimento dos sistemas
+
+modelo hierarquico - busca registro tem estancia, vejo separado, não consigo relacionar dados, é uma arvore
+modelo em rede,  links ponteiros entre nsó , estrutura em grafico
+
+modelo relacional
+SQL baseado na teoria dos conjustos, algebra relacional, relações, transparencia, 
+dois usuarios DBA - adiministrador - define as tabelas, define as regras, entidades, atributos, comandos são traduzidos como LDD, tem uma equipe, Desing faz a modelagem
+responsavel pela manipulação
+
+LDD é uma SQL - é um comando para definição dos dados, a query é compilada, é executada, gerenciador que acessa o banco de dados e retorna as informações,
+
+Usuario convencional, altera e extrai informações, Dureaveis, agrupa para executar transação
+
+storage e Buffer
+Gerenciador de armazenamento (troca movimentação de memoria) e Buffer ( troco de memoria)
+integração de bancos Data warehouses, faz a relação entre diferentes SGBDS
+
+SGBDs mais utilizados
+Oracle - - Maior performace , grandes corporações, segurança, escalabidade, 
+My sql - usando mais para web, por ser leve, usa php criou foi a Sun, hoje é da Oracle
+Sql - server - T-SQl -da microsoft itegrado com o BI, da descontos para escola
+
+PostagreSQL - espeficação - para phyton é uma das primeiras linguagens
+
+MongoDB - NoSql - armazena dados em blocos, não é relacional
+
+redis- NoSql - performatico e escalavel, mais rapido, armazena em memoria, não em disco
+ElasticSearch - centraliza dados, usado por stard up, simples estrutura HTTP, utiliza jason NoSQL
+
+Axces - usado para desktop, serviçoes de ecomerce, para sistemas mais simples
+Maria DB - braço do MySQL , são similares, serviço de busca mais rapido
+cassandra - NoSql - gerenciamento de larga escala , dev pelo FB, open source, 
+
+como escolhar 
+popularidade, tempo de mercado, documentação, robustez, confiabilidade, segurança, multiplataforma
+
+modelagem
+   transforma dados para uma tomada de decição, estatistica, verificação de padrão, tenho uma base que preciso explorar, usando AI
+composição do problema - execução - abstração, criar um modelo, qual deve ser utilizado - abstração, reprodutividade, reutilização e escalabildiade
+
+paralelismo - multiplos processamentos de dados, não tem dependencia de ações, posso executar em paralelo
+Big data - processamento paralelo, armazeno dado
+cloud - recurso de terceiros, provem serviço
+HPC - computação de alto desempenho, processo de forma paralena , modelos MPI, MP e Cl
+big data processa e armazena HPC não, 
+
+transformmar dados em decições de negocio,  novos modelos de SGBDs
+engenheiro de  dados - desenha e costroi, sustenta a solução, como extrair os dados, como manter o fluxo
+cientista de dados - modelagem, reconhecimento de padrões, 
+analista de dados - preocupado na representação, apresentação via dashboarde, gera relatorios
+
+data drivem
+analise entenda decisão
+
+modelos noSql
+Documentos - baseado em Json mongo DB, facilmente excalavel, consulta em java
+Wide-colums - cassandra, permormatico consulta em SQL
+Key-Value - diferentes tipos de dado, escrito em C
+Grafos - neo4j , no-link escrito em java , cyper , phyton, nodejs , .net
+Orientado ao Obj - .net e java, cria uma classe
+modelagem diferenciada, auta performace melhor que o relacional
+
